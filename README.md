@@ -3,7 +3,8 @@ A simple python package to encrypt and decrypt images.
 
 ## Getting Started
 You need to have `python3` and `pip3` in your system.
-
+## about
+we also used cryptography, random numbers, hash functions
 ## Usage
 #### encrypt.py
 - To get help about the commands `python encrypt.py -h`

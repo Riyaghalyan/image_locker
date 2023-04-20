@@ -59,11 +59,13 @@ def __writeDecryptedImage(encryptedImagePath: str, image, single):
         os.makedirs(DECRYPTED_OUTPUT_DIR)
 
     imageName = os.path.basename(encryptedImagePath)[:-4]
-
+    imageName = imageName[:-4]+str(1)+imageName[-4:]
     outputFileName = imageName if single else os.path.join(
         DECRYPTED_OUTPUT_DIR, imageName)
-
+    
+    print(imageName,outputFileName)
     image = Image.fromarray(np.uint8(image))
+    image = image.convert("RGB")
     image.save(outputFileName)
 
     if single:

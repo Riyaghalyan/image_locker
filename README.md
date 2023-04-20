@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Image Locker
 A simple python package to encrypt and decrypt images.
 
@@ -70,3 +71,6 @@ You need to have `python3` and `pip3` in your system.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+=======
+# image_locker
+>>>>>>> 1175af9998dc4062d8cc038cee274911562bfe10
